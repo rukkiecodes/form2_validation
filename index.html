@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/main.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="glass" />
+
+  <div class="card">
+    <div class="left">
+      <div class="section1">
+        <p>Start for free</p>
+        <p>Login</p>
+        <p>Not a Member? <a href="#">Create Account</a></p>
+      </div>
+
+      <div class="section2">
+        <input type="text" id="username" placeholder="Username">
+
+        <div class="emailDiv">
+          <input type="email" id="email" placeholder="Email">
+          <p id="emailError"></p>
+        </div>
+
+        <div class="passwordDiv">
+          <input type="password" id="password" placeholder="Password">
+
+          <button>
+            <i id="icon" class="far fa-eye"></i>
+          </button>
+          <p id="passwordError"></p>
+        </div>
+
+        <button id="loginButton">Login</button>
+
+        <div class="section2Bottom">
+          <div class="input">
+            <input type="checkbox" name="rememberMe" id="rememberMe">
+            <label for="rememberMe">Remember for 30 days</label>
+          </div>
+          <a href="#">Forgot password?</a>
+        </div>
+      </div>
+
+      <div class="section3">
+        <div class="leftSide">
+          <button>
+            <i class="fab fa-google"></i>
+            <span>Continue with google</span>
+          </button>
+        </div>
+
+        <div class="rightSide">
+          <button>
+            <i class="fab fa-facebook"></i>
+          </button>
+          <button>
+            <i class="fab fa-twitter"></i>
+          </button>
+          <button>
+            <i class="fab fa-apple"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="right" />
+  </div>
+
+  <script src="./assets/main.js"></script>
+</body>
+
+</html>
